@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather API🌞</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <form class="weather-form">
+        <input type="text" class="city-input" name="city" placeholder="Enter city name">
+        <button type="submit">Fetch Weather Info</button>
+    </form>
+    <div class="weather-result" style="display: none;">
+        <h1 class="cityDisplay"></h1>
+        <p class="tempDisplay"></p>
+        <p class="humidityDisplay"></p>
+        <p class="descDisplay"></p>
+        <p class="weatheremoji"></p>
+        <p class="errordisplay"></p>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
